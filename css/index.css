@@ -1,0 +1,472 @@
+@charset "utf-8";
+html {
+  font-size: 42.66666667px;
+}
+/*样式 rem 适配*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66666667px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 53.33333333px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 56.53333333px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+.bg {
+  background: url("../images/bg.jpg") no-repeat center top;
+  background-size: 100% 100%;
+}
+.current {
+  background-color: #D7D7D7;
+  color: red;
+}
+.show {
+  display: block;
+}
+body {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: "microsoft yahei";
+}
+.header {
+  height: 0.64rem;
+  width: 100%;
+  background: rgba(211, 211, 211, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.header .left div {
+  float: left;
+}
+.header .left div a {
+  display: block;
+  height: 0.50rem;
+  width: 0.50rem;
+  background-image: url("../images/monkey.png");
+  background-size: contain;
+  border: 0.01rem solid darkolivegreen;
+  border-radius: 50%;
+}
+.header .left .a {
+  margin-left: 0.30rem;
+  margin-top: 0.06rem;
+}
+.header .left .leftSpan {
+  margin-top: 0.13rem;
+  margin-left: 0.30rem;
+}
+.header .left .leftSpan span {
+  font-size: 0.16rem;
+}
+.header .right {
+  float: right;
+  margin-right: 0.50rem;
+}
+.header .right ul li {
+  float: left;
+  margin: 0 0.15rem;
+}
+.header .right ul li a {
+  display: block;
+  line-height: 0.64rem;
+  text-decoration: none;
+  font-size: 0.18rem;
+  color: #666;
+}
+.header .right ul li a:hover {
+  color: black;
+  border-bottom: 0.02rem solid deepskyblue;
+}
+#dowebok .yiP .img {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  margin-left: -1rem;
+  width: 1.80rem;
+  height: 1.80rem;
+  overflow: hidden;
+}
+#dowebok .yiP .img a {
+  display: block;
+  background-image: url("../images/1.jpg");
+  width: 1.80rem;
+  height: 1.80rem;
+  border: 0.01rem solid #fff;
+  border-radius: 50%;
+  background-size: contain;
+  transform: translate(0, 2rem);
+}
+#dowebok .yiP .img a:hover {
+  box-shadow: 0px 0px 0.07rem green;
+}
+#dowebok .yiP .p1 {
+  font-size: 0.18rem;
+  margin: 0.30rem auto auto auto;
+  width: 8rem;
+  text-align: center;
+  color: #fff;
+}
+#dowebok .yiP .yiP_div {
+  height: 0.03rem;
+  width: 0;
+  background: #ccc;
+  position: absolute;
+  left: 50%;
+  -moz-transform: translate(-50%, 0.25rem);
+  transform: translate(-50%, 0.25rem);
+}
+#dowebok .yiP .yiP_div1 {
+  position: absolute;
+  bottom: 0;
+  font-size: 0;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#dowebok .yiP .yiP_div1 p {
+  text-align: center;
+  margin: 0.15rem;
+}
+#dowebok .yiP.now .img a {
+  -moz-transition: all 2s ;
+  -moz-transform: translate(0, 0px);
+  transition: all 2s ;
+  transform: translate(0, 0px);
+}
+#dowebok .yiP.now .yiP_div {
+  width: 5rem;
+  -moz-transition: all 2s ;
+  transition: all 2s ;
+}
+#dowebok .yiP.now .p1 {
+  color: black;
+  -moz-transition: all 5s;
+  transition: all 5s;
+}
+#dowebok .yiP.now .yiP_div1 {
+  font-size: 0.18rem;
+  -moz-transition: all 2s 2s;
+  transition: all 2s 2s;
+}
+#dowebok .erP h1 {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 0.36rem;
+}
+#dowebok .erP h5 {
+  text-align: center;
+  font-size: 0.16rem;
+  margin-bottom: 0.2rem;
+}
+#dowebok .erP div {
+  position: relative;
+}
+#dowebok .erP span {
+  margin: 0.1rem 0;
+  display: block;
+  text-align: center;
+}
+#dowebok .erP .span1 {
+  font-size: 0.4rem;
+}
+#dowebok .erP ul {
+  display: none;
+  width: 3rem;
+  position: absolute;
+  left: -50%;
+  top: 90%;
+  background: #C8C8DC;
+  border: 0.01rem solid #C8C8DC;
+  border-radius: 0.05rem;
+  font-size: 0.16rem;
+}
+#dowebok .erP p {
+  margin-top: 0.7rem;
+  text-align: center;
+  font-size: 0.3rem;
+}
+#dowebok .box1 {
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  position: relative;
+  top: -25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transform: rotateY(20deg) rotateX(-20deg);
+  transform-style: preserve-3d;
+  -moz-animation: rotate 6s linear infinite;
+  -ms-animation: rotate 6s linear infinite;
+  -webkit-animation: rotate 6s linear infinite;
+  -o-animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
+}
+#dowebok .box1 div {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#dowebok .box1 .front {
+  -webkit-transform: translateZ(1rem);
+  -ms-transform: translateZ(1rem);
+  transform: translateZ(1rem);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+#dowebok .box1 .back {
+  -ms-transform: translateZ(-1rem) rotateY(180deg);
+  transform: translateZ(-1rem) rotateY(180deg);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+#dowebok .box1 .left {
+  -ms-transform: translateX(-1rem) rotateY(-90deg);
+  transform: translateX(-1rem) rotateY(-90deg);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+#dowebok .box1 .right {
+  -ms-transform: translateX(1rem) rotateY(90deg);
+  transform: translateX(1rem) rotateY(90deg);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+#dowebok .box1 .top {
+  -ms-transform: translateY(-1rem) rotateX(90deg);
+  transform: translateY(-1rem) rotateX(90deg);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+#dowebok .box1 .bottom {
+  -ms-transform: translateY(1rem) rotateX(-90deg);
+  transform: translateY(1rem) rotateX(-90deg);
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+}
+@-webkit-keyframes rotate {
+  from {
+    transform: rotateY(30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(-30deg);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    transform: rotateY(30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(-30deg);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    transform: rotateY(30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(-30deg);
+  }
+}
+@-ms-keyframes rotate {
+  from {
+    transform: rotateY(30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(-30deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotateY(30deg) rotateX(-30deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(-30deg);
+  }
+}
+#dowebok .threeP h1 {
+  text-align: center;
+  font-size: 0.30rem;
+  transform: translate(0, -1rem);
+}
+#dowebok .threeP .threeP_div {
+  width: 0;
+  height: 0.02rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -1rem);
+  background-color: red;
+}
+#dowebok .threeP.now .threeP_div {
+  width: 1.5rem;
+  transition: all 2s;
+}
+#dowebok .lunbo {
+  width: 7rem;
+  height: 4rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 0.16rem;
+}
+#dowebok .lunbo .box {
+  width: 7rem;
+  height: 4rem;
+  transform: translate(0, -0.9rem);
+  overflow: hidden;
+  border: 0.01rem solid #ccc;
+}
+#dowebok .lunbo .box .ul1 {
+  list-style: none;
+  height: 0.4rem;
+}
+#dowebok .lunbo .box .ul1 li {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  float: left;
+  width: 1.39rem;
+  text-align: center;
+  border: 1px solid blueviolet;
+}
+#dowebok .lunbo .box span {
+  display: none;
+  width: 7rem;
+  height: 3.6rem;
+  text-align: center;
+  overflow: auto;
+}
+#dowebok .lunbo .box span dd {
+  text-indent: 2em;
+}
+#dowebok .fourP h1 {
+  font-size: 0.3rem;
+  text-align: center;
+  margin-top: -2rem;
+  margin-left: 40%;
+  float: left;
+  color: #e4a3ff;
+}
+@keyframes run {
+  0% {
+    font-size: 0.3rem;
+    color: #1b6d85;
+  }
+  50% {
+    font-size: 0.7rem;
+    color: greenyellow;
+  }
+  100% {
+    font-size: 0.3rem;
+    color: #1b6d85;
+  }
+}
+#dowebok .fourP p {
+  font-size: 0.3rem;
+  text-align: center;
+  margin-top: -1.3rem;
+}
+#dowebok .fourP .div1 {
+  position: absolute;
+  left: 30%;
+}
+#dowebok .fourP .div1 span {
+  display: inline-block;
+  font-size: 0.32rem;
+}
+#dowebok .fourP ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+#dowebok .fourP ul li {
+  font-size: 0.16rem;
+}
+#dowebok .fourP .div3 {
+  width: 100%;
+  height: 0.05rem;
+  background: #CCC;
+  position: absolute;
+  bottom: 0.5rem;
+}
+#dowebok .fourP .div4 {
+  height: 0.8rem;
+  width: 0.8rem;
+  line-height: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 0.5rem;
+  background: #ccc;
+  text-align: center;
+  transform: translate(-50%, 50%);
+}
+#dowebok .fourP.now h1 {
+  transform-style: preserve-3d;
+  animation: run 2s linear;
+}
+#dowebok .fourP.now .div2 {
+  transform: translate(-4rem, 0);
+  transition: all 3s;
+  transition-delay: 2s;
+  opacity: 0;
+}
